@@ -3,10 +3,10 @@
 coding test study (2022~ )
 
 📦 homework  
-┣ 📂 baekjoon   
+┣ 📂 baekjoon     
+┃ ┣ 📂 2022      
+┃ ┗ 📂   
+┣ 📂 programmers    
 ┃ ┣ 📂 2022    
-┃ ┗ 📂 
-┣ 📂 programmers  
-┃ ┣ 📂 2022  
-┃ ┗ 📂  
-┗ 📜README.md  
+┃ ┗ 📂    
+┗ 📜README.md    
