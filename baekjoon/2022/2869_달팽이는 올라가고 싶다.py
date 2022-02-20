@@ -6,7 +6,6 @@ day = math.ceil((v - b) / (a - b))
 # 내림이 아닌 올림을 해야 함
 print(day)
 
-
 '''
 day = int(v / (a - b))
 if v <= ((a - b) * (day - 1)) + b: # 낮에 정상에 도달했다면 
