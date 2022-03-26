@@ -11,7 +11,8 @@ coding test study (2022~ )
 ┃ ┃ ┣ 📂 String Manipulation    
 ┃ ┃ ┣ 📂   
 ┃ ┃ ┗ 📂    
-┣ 📂 programmers       
-┃ ┣ 📂 2022      
-┃ ┗ 📂      
-┗ 📜README.md      
+┣ 📂 programmers         
+┃ ┣ 📂 2022        
+┃ ┗ 📂    
+┣ 📂 python          
+┗ 📜README.md        
