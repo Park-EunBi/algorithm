@@ -2,6 +2,17 @@ import re, collections
 from typing import List
 class Solution:
     def mostCommonWord(self, paragraph: str, banned: List[str]) -> str:
+        words = [word for word in re.sub(r'[^\w]', ' ', paragraph)
+                 .lower().split()
+                 if word not in banned]
+
+        cnt = collections.Counter(words)
+        return cnt.most_common(1)[0][0]
+
+'''
+(풀이 -1)
+class Solution:
+    def mostCommonWord(self, paragraph: str, banned: List[str]) -> str:
         # lower and remove . ,
         paragraph = re.sub(r"[^a-z0-9]"," ",paragraph.lower())
 
@@ -18,7 +29,7 @@ class Solution:
 
         return cnt.most_common(1)[0][0]
 
-'''
+
 (결과)
 Wrong Answer
 
