@@ -40,6 +40,16 @@ Expected  "ball"
 
 '''
 
+'''
+(lambda)
+lambda 매개변수 : 표현식
+
+(sort)
+sort(key = a, b)
+sort는 key를 여러개 등록할 수 있다. 
+왼쪽 부터 차례로 적용된다. 
+'''
+
 
 s = Solution()
 print(s.mostCommonWord("Bob hit a ball, the hit BALL flew far after it was hit.","hit"))
