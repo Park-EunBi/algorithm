@@ -1,4 +1,15 @@
 from typing import List
+import collections
+class Solution:
+    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+        anagrams = collections.defaultdict(list)
+
+        for s in strs:
+            anagrams[''.join(sorted(s))].append(s)
+        return list(anagrams.values())
+
+
+'''
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         #문자를 다 정렬해서 새로운 리스트에 넣자
@@ -19,6 +30,7 @@ class Solution:
         #
 
         return sort_str
+'''
 '''
         sorted(s)
         test = []
