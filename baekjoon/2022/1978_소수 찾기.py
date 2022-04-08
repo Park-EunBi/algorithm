@@ -10,4 +10,6 @@ if len(num_list) == num_count:
                 count += 1
         if count == 2:
             res += 1
+
+            
 print(res)
