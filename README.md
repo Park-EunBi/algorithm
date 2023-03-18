@@ -1,11 +1,14 @@
-# python-study
+# algorithm   
 
 coding test study (2022~ )
 
-📦 homework  
+📦 algorithm      
 ┣ 📂 baekjoon     
 ┃ ┣ 📂 2022      
 ┃ ┗ 📂   
+┣ 📂 etc        
+┃ ┣ 📂 2023      
+┃ ┗ 📂     
 ┣ 📂 leetcode          
 ┃ ┣ 📂 2022         
 ┃ ┃ ┣ 📂 String Manipulation    
