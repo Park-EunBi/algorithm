@@ -15,12 +15,10 @@ def reverse(x):
 def isPrime(x):
     x = reverse(x)
     if x == 1:
-        # print("here")
         return False
+    if x == 2:
+        return x
     for i in range(2, x):
-
-        if x == 2:
-            return x
         if x % i == 0:
             return False
     return x
@@ -31,5 +29,4 @@ nums = list(map(int, input().split()))
 for num in nums:
     res = isPrime(num)
     if res:
-        # pass
         print(res, end=" ")
