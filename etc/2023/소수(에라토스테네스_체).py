@@ -8,15 +8,14 @@ sys.stdin = open("input.txt", "rt")
 n = int(input())
 
 # 소수 == 1과 자기자신을 제외한 수로 나눌 수 없는 수
-# [2, 3, 4, 5, 6, 7, 8, 9, 10]
-
 # 배수인 경우 1으로 표시하는 방법을 사용
+
 nums = [0] * (n+1)
 cnt = 0
 for i in range(2, n+1):
-    if nums[i] == 0:
+    if nums[i] == 0: # 소수
         cnt += 1
-    for j in range(i, n+1, i):
+    for j in range(i, n+1, i): # i의 배수로 증가
         nums[j] = 1
 
 print(cnt)

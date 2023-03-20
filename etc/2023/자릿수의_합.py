@@ -15,7 +15,7 @@ def digit_sum(x):
     # 자릿수의 합을 계산
     # 125 -> 1 + 2 + 5
     res = 0
-    while x >= 1:
+    while x >= 1: # x > 0
         res += x % 10
         x = x // 10
     return res
@@ -24,3 +24,12 @@ for i in nums:
     sums.append(digit_sum(i))
 
 print(nums[sums.index(max(sums))])
+
+'''
+# 다른 풀이 
+def digit_sum(x):
+    sum = 0
+    for i in str(x):
+        sum += int(i)
+    return sum
+'''

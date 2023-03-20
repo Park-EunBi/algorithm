@@ -40,6 +40,8 @@ for i in range(n):
     tmp=input().split() 
     tmp.sort() 
     a, b, c=map(int, tmp)
+    
+    # if문을 사용할 때는 가장 좋은 조건을 상단에 작성해야 한다 
     if a==b and b==c: # 3개의 수가 같은지 확인 
         money=10000+(a*1000);
     elif a==b or a==c: # 2개의 수가 같은지 확인 
@@ -53,3 +55,4 @@ for i in range(n):
 
 print(res)
 '''
+

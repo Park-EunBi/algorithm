@@ -9,7 +9,7 @@ n, m = map(int, input().split())
 
 sums = [] # 합 저장
 for i in range(1, n+1) :
-    for j in range(1, m+1):
+    for j in range(1, m+1): # 중복 가능
         sums.append(i + j)
 
 nums = set(sums) # 어떤 수가 있는지 확인
