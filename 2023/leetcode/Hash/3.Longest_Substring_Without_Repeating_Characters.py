@@ -19,6 +19,5 @@ class Solution:
             # print(used, max_length)
         return max_length
 
-
 s = Solution()
 print(s.lengthOfLongestSubstring("abcabcbb"))
