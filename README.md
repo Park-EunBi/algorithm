@@ -1,21 +1,18 @@
 # algorithm   
 
-coding test study (2022~ )
+algorithm study (2022~ )
 
 📦 algorithm      
-┣ 📂 baekjoon     
-┃ ┣ 📂 2022      
-┃ ┗ 📂   
-┣ 📂 etc        
-┃ ┣ 📂 2023      
-┃ ┗ 📂     
-┣ 📂 leetcode          
-┃ ┣ 📂 2022         
-┃ ┃ ┣ 📂 String Manipulation    
-┃ ┃ ┣ 📂 Linear Data Structure       
-┃ ┃ ┗ 📂    
-┣ 📂 programmers         
-┃ ┣ 📂 2022        
-┃ ┗ 📂    
-┣ 📂 python          
-┗ 📜README.md        
+┣ 📂 2022     
+┃ ┣ 📂 baekjoon  
+┃ ┣ 📂 leetcode    
+┃ ┣ 📂 programmers     
+┃ ┗ 📂 python_grammar     
+┣ 📂 2023   
+┃ ┣ 📂 baekjoon  
+┃ ┣ 📂 etc      
+┃ ┣ 📂 leetcode    
+┃ ┣ 📂 programmers   
+┃ ┣ 📂 이것이_코딩_테스트다           
+┃ ┗ 📂 파이썬_알고리즘_문제풀이     
+┗ 📜README.md

@@ -4,7 +4,7 @@ def solution(new_id):
     # A-Za-z0-9\-\_\. 에 포함되지 않는 문자 제거
     answer = re.sub("[^A-Za-z0-9\-\_\.]", "", new_id.lower())
     # 2개 이상 . 등장시 제거
-    answer = re.sub("\.{2,1000}", ".", answer)
+    answer = re.sub("\.{2,1000}", "", answer)
     # 양 끝단 문자열 삭제
     answer = answer.strip(".")
     # 빈문자열이면 a 대입
