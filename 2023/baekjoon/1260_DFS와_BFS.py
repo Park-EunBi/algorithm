@@ -1,14 +1,4 @@
 from collections import deque
-n, m, v_num = map(int, input().split())
-graph = [[] for _ in range(n + 1)]
-
-for _ in range(m):
-    a, b = map(int, input().split())
-    graph[a].append(b)
-    graph[b].append(a)
-
-visited = [False for _ in range(n + 1)]
-
 # dfs
 def dfs(graph, v, visited):
     visited[v] = True
@@ -29,7 +19,19 @@ def bfs(graph, start, visited):
                 queue.append(i)
                 visited[i] = True
 
+n, m, v_num = map(int, input().split())
+graph = [[] for _ in range(n + 1)]
+
+for _ in range(m):
+    a, b = map(int, input().split())
+    graph[a].append(b)
+    graph[b].append(a)
+
+for i in graph:
+    i.sort()
+
+visited = [False for _ in range(n + 1)]
 dfs(graph, v_num, visited)
 print()
-visited = [False for _ in range(m)]
+visited = [False for _ in range(n + 1)]
 bfs(graph, v_num, visited)
