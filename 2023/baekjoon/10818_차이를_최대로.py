@@ -16,6 +16,20 @@ for l in num_lists:
 
 print(answer )
 
+'''
+per = list(permutations(a))
+
+result = -99999999
+for p in per:
+    tmp_result = 0
+    for i in range(0, len(a)-1):
+        tmp = abs(p[i] - p[i+1])
+        tmp_result += tmp
+    result = max(result, tmp_result)
+
+print(result)
+
+'''
 
 # a_big = a.sort(reverse=True)
 # a_small = a.sort(reverse=False)
