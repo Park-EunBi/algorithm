@@ -29,4 +29,4 @@ def solution(s):
         # 문자열이 가장 짧은 것
         answer = min(answer, len(compressed))
 
-    return
+    return answer
