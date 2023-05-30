@@ -4,7 +4,7 @@ for _ in range(n):
     ice.append(list(map(int, input())))
 
 # 모든 노드를 방문하며
-# 0이면 상하좌우 dfs, return True
+# 0이면 상하좌우 DFS_BFS, return True
 # 1이면 return False
 
 def dfs(x, y):
