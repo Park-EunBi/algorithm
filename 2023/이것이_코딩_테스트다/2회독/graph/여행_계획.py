@@ -40,7 +40,7 @@ for i in range(n):
 # 여행 계획 입력
 plan = list(map(int, input().split()))
 
-result = FutureWarning
+result = True
 
 # 여행 계획에 속하는 모든 노드의 루트가 동일한지 확인
 for i in range(m -1):
