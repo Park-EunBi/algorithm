@@ -12,4 +12,4 @@ for i in range(n):
             dp[i] = dp[j]
     dp[i] += 1
 
-print(max(dp))ㅎ
+print(max(dp))
