@@ -2,11 +2,11 @@
 n, m = map(int, input().split())
 x, y, d = map(int, input().split())
 board = [list(map(int, input().split())) for _ in range(n)]
-visited = [[0] * m for _ in range(n)] \
- \
-    for i in range(n):
-        for j in range(m):
-            visited[i][j] = board[i][j]
+visited = [[0] * m for _ in range(n)]
+
+for i in range(n):
+    for j in range(m):
+        visited[i][j] = board[i][j]
 
 visited[x][y] = 2
 
